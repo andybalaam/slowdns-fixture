@@ -1,0 +1,9 @@
+#!/usr/bin/python3 -u
+
+from dnslib.server import DNSServer, DNSLogger
+import time
+
+print(DNSServer)
+
+while True:
+    time.sleep(1)

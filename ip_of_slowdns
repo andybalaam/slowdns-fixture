@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker inspect slowdns \
+    --format '{{ .NetworkSettings.Networks.bridge.IPAddress }}'
