@@ -17,13 +17,17 @@ make
 
 ## Run
 
-In one terminal start a DNS server:
+In one terminal start a slow DNS server:
 
 ```
 make run-slowdns
 ```
 
-In another
+In another, run nslookup and confirm it uses the DNS server started above:
+
+```
+make run-test-nslookup
+```
 
 # Explanation
 
