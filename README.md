@@ -7,7 +7,7 @@ misbehaving.
 
 * [Docker](https://www.docker.com), able to [run as
   you](https://docs.docker.com/engine/installation/linux/linux-postinstall/).
-* Make
+* [GNU Make](https://www.gnu.org/software/make/)
 
 ## Build
 

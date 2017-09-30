@@ -5,7 +5,7 @@ DOCKERRUN = \
 	docker rm ${1} ; \
 	docker run --dns=`./ip_of_slowdns` --name=${1} ${1}
 
-compile: compile-slowdns
+compile: compile-slowdns compile-test-curl compile-test-nslookup
 
 compile-slowdns:
 	$(call DOCKERBUILD,slowdns)
